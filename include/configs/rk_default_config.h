@@ -131,7 +131,7 @@
  * else just do as:
  *	#define CONFIG_PREBOOT
  */
-#define CONFIG_PREBOOT
+#define CONFIG_PREBOOT			"setenv bootdelay 3"
 #define CONFIG_CMD_BOOTRK
 #define CONFIG_BOOTCOMMAND		"bootrk"
 
@@ -159,7 +159,7 @@
 #define CONFIG_SYS_LONGHELP		/* undef to save memory */
 #define CONFIG_SYS_HUSH_PARSER		/* use "hush" command parser	*/
 #define CONFIG_SYS_PROMPT_HUSH_PS2	"> "
-#define CONFIG_SYS_PROMPT		"rkboot # "
+#define CONFIG_SYS_PROMPT		"r68 # "
 #define CONFIG_SYS_CBSIZE		256	/* Console I/O Buffer Size */
 #define CONFIG_SYS_PBSIZE		1024	/* Print Buffer Size */
 #define CONFIG_SYS_MAXARGS		16	/* max number of command args */
